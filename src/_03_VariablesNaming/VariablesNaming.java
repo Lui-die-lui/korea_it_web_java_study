@@ -13,6 +13,9 @@ public class VariablesNaming {
        * 5. 예약어 사용불가(public, static, void, int, float, ....) - 이미 java내 사용 목적이 있기때문
        */
 
+        //boolean
+        //is, flag ( 앞에 붙여주는게 보통 ex)isEmpty = 비어 있는가 )
+
         String carBrandName = "KIA"; //"carBrandName"=변수명
         String carModelName = "EV6";
         String carColor = "white";

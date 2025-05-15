@@ -60,7 +60,7 @@ public class TypeCasting {
         //놓침
 
         //i = Intager.parseInt("숫자");
-        // System
+        // System 놓침
 
 
 
