@@ -75,6 +75,7 @@ public class Operator {
         int y = 3;
         int max = (x > y) ? x:y;//x가 y보다 큰가?
         int min = (x < y) ? x:y;//x가 y보다 작은가?
+        //이거 뭔가 이상함... 나중에 강의랑 대조 할것
 
         x = 3;
         boolean isSame = (x == y) ? true : false;
