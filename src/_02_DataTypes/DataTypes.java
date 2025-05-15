@@ -18,7 +18,7 @@ public class DataTypes {
         System.out.println("l은" + l);
 
         //실수 - float, double (실사용-더블 사용 많음)
-        float f = 3.14f; //long 이랑 같음 f 붙이기
+        float f = 3.14f; //long 이랑 같음 f 붙이기 대소문자 상관없음
         double d = 3.14123456123456; //실수 더 길게 들어감
         // *부동 소수점의 오류
 
