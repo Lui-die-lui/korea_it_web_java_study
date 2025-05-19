@@ -32,7 +32,7 @@ public class Operator {
 
         //증강 연산자
         int j = 10;
-//        System.out.println(j);
+        System.out.println(j);
         //실행이 된 후에 1증가
 //        System.out.println(j++);//코드를 실행하고 나면 바로 1 더해짐 10 => 10 + 1
 //        System.out.println(j);//여기서 -1
