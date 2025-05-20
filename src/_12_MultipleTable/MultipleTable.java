@@ -10,8 +10,8 @@ public class MultipleTable {
 
             }
             System.out.println();
-
-
         }
+
+
     }
 }
