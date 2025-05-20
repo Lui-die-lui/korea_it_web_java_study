@@ -35,6 +35,11 @@ public class MultiArrayLoop {
                 System.out.print(imaxSeats[i][j] + " ");
             }
             System.out.println();
+
+            //다차원 배열 합 구하기
+            //3x3크기 1부터 홀수만 차례대로 대입하고 출력해서 확인
+            //그 수들의 합 구하기
+
         }
 
 
