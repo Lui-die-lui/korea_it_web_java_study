@@ -1,4 +1,4 @@
-package Method;
+package _17_Method;
 
 public class Method {
     public static void sayHello() {

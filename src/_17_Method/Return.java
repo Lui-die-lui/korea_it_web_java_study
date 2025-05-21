@@ -1,4 +1,4 @@
-package Method;
+package _17_Method;
 
 public class Return {
     public static String getName() { // void에 반환될 자료형을 기입

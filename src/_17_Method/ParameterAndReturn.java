@@ -1,4 +1,4 @@
-package Method;
+package _17_Method;
 
 public class ParameterAndReturn {
 //    public static void power(int number) {
