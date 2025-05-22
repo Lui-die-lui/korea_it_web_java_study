@@ -25,9 +25,9 @@ public class Overloading {
     //getPowerExp 넣기
 
 
-    public static String printInfo(String name) {
-        name = "00";
-    } /
+//    public static String printInfo(String name) {
+//        name = "00";
+//    }
 
 
 
