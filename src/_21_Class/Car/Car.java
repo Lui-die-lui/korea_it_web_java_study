@@ -16,6 +16,17 @@ public class Car {
          System.out.println("RequiredArgsConstructor");
          this.carName = carName; // 생성과 동시에 이름 넣기 / this - 자기자신
      }
+        //this 해당 클래스로 만들어진 객체를 의미
+        //this를 왜 써야하는가? -> 속성의 이름과 매개변수의 이름이 같을때 명확히 하기 위해서
+        //이름이 다르다면 this는 생략 가능
+        //만약 carName = carName; 이라면 속성에 자기 자신을 대입하는거라 의미가 없다
+        //하지만 this.carName이라고 명시를 해두면 속성에 매개변수 값 대입이라는 뜻
+
+//    Car(String carNm) {
+//        System.out.println("carName의 속성값이 부여된 자동차");
+//        System.out.println("RequiredArgsConstructor");
+//        carName = carNm; // this 생략가능
+
 
      Car(String carName, int carYearModel, String carColor) {
          System.out.println("모든 속성값이 부여된 자동차");
