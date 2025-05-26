@@ -18,8 +18,25 @@ public class Main {
         animal01.setAnimalName("고양이");
         animal01.setAnimalAge(3);
         animal01.move();
+//        animal01.Striped(); 자식이 가지고있는 고유 메소드이기때문에 X
 
         Tiger tiger1 = new Tiger();
+        tiger1.setAnimalName("호랭이");
+        System.out.println(tiger1.getAnimalName());
+        tiger1.setAnimalAge(3);
+        System.out.println(tiger1.getAnimalAge());
+        tiger1.move();// animal에서 상속받음 - 오버라이딩으로 부모 메소드도 호출시킴
+        tiger1.hunt();
+        tiger1.setStriped(true);
+
+        Human human = new Human("LSG", 30);
+        System.out.println(human.getAnimalName());
+        System.out.println(human.getAnimalAge());
+        human.move();
+        human.read("불편한 편의점");
+
+
+
 
     }
 }
