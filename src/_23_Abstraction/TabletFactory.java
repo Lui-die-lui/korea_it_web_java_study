@@ -7,24 +7,22 @@ package _23_Abstraction;
 //메인에서 produce("아이패드 6세대")
 //upgrade("아이패드 7세대")
 
-//public class TabletFactory extends Factory {
-//
-//
-//    public TabletFactory(String name) {
-//        System.out.println("[" + model + "] 태블릿을 생산합니다.");
-//        super(name);
-//
-//
-//
-//    @Override
-//    public void produce(String manage) {
-//            System.out.println("스마트폰 공장을 관리합니다.");
-//        }
-//
-//    }
-//
-////    @Override
-////    public void () {
-//
-//    }
-//} ,,,^^
+public class TabletFactory extends Factory {
+
+    public TabletFactory(String name) {
+        super(name);
+    }
+
+
+    @Override
+    public void produce(String model) {
+        System.out.println("[" + model + "] 태블릿을 생산합니다.");
+    }
+
+    @Override
+    public void manage() {
+        System.out.println("스마트폰 공장을 관리합니다.");
+    }
+
+
+}

@@ -17,7 +17,7 @@ public abstract class Factory { // abstract 붙이면 추상 클래스
     public  abstract void manage(); // 추상 메소드를 쓰기 위해선 추상 클래스 무조건 만들어주기
     // 추상 클래스 -> 추상 메소드가 하나라도 있으면
 
-      public Factory(String name) {
+    public Factory(String name) {
        this.name = name;
    }
 
