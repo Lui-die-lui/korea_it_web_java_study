@@ -21,7 +21,11 @@ public class TabletFactory extends Factory {
 
     @Override
     public void manage() {
-        System.out.println("스마트폰 공장을 관리합니다.");
+        System.out.println( getName() + " 공장을 관리합니다.");
+    }
+
+    public void upgrade(String model) {
+        System.out.println( model + "로 업그레이드 되었습니다.");
     }
 
 
