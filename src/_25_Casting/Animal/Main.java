@@ -27,7 +27,7 @@ public class Main {
 
         //다운캐스팅 방법 2
         Dog d2 = (Dog) a2; // 새로운 변수에 다운캐스팅한 객체를 대입
-//        d2.wagtail(); 오잉...
+//        d2.wagtail();
 
         //다양한 자식들을 하나의 클래스 타입으로 처리할 수 있음
         Dog dog1 = new Dog();
