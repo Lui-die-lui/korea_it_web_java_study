@@ -11,13 +11,13 @@ public class Animal {
     public Animal() {
     }
 
-//    public Animal(String animalName) {
-//        this.animalName = animalName;
-//    }
-//
-//    public Animal(int animalAge) {
-//        this.animalAge = animalAge;
-//    }
+    public Animal(String animalName) {
+        this.animalName = animalName;
+    }
+
+    public Animal(int animalAge) {
+        this.animalAge = animalAge;
+    }
 
 
     public Animal(String animalName, int animalAge) {
