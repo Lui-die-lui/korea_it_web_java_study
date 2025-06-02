@@ -15,4 +15,3 @@ public class KoreaItStudent {
         return static_curriculum;
     }
 }
-//

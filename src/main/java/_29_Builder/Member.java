@@ -46,7 +46,7 @@ public class Member {
             return this;
         }
 
-        // 모든 필드 설정이 끝난 후 Member 객체의 생성자를 통해
+        // 모든 필드 설정이 끝난 후 Member 객체의 생성자를 통해s
         // Builder의 객체를 넣어줌
         public Member build() {
             return new Member(this); // builder 내 정보를 Member 변수 내로 넣어줌
