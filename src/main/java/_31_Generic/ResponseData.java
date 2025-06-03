@@ -9,7 +9,7 @@ import lombok.Data;
 // 타입 매개변수(Type Parameter)
 // 클래스나 메소드에서 사용할 실제 타입을 '대신하여' 사용하는 매개변수
 // 일반적으로 알파벳 대문자 하나로 표기
-// T(Type) - 일반적으로 클래스 타입을 나타낼 때 사용 String, Inteager ... / int 안됨
+// T(Type) - 일반적으로 클래스 타입을 나타낼 때 사용 String, Integer ... / int 안됨
 // E(Element) - 컬렉션의 요소(element)를 나타낼 때 사용
 // K(key) - Map 의 Key를 나타낼 때 사용
 // V(value) - Map의 Value를 나타낼 때 사용
