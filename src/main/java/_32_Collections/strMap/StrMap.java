@@ -40,7 +40,7 @@ public class StrMap {
 
         //entrySet()을 이용했을때
         for ( Map.Entry<String, String> entry : strMap1.entrySet()) {
-            System.out.println("키 : " + entry.getKey() + " 값 : " + entry.getValue());
+            System.out.println("키 : " + entry.getKey() + " 값 : " + entry.getValue()); // 키 밸류 각각 빼올 수 있음
         }
         // entrySet을 이용하게 되면 키 값 전체 내용이 set형태로 오는데 keySet 처럼 한가지만 String으로
         // 들어가는게 아님 그래서 키 값 형태를 받아줄 수 있는 Map.Entry에다가 넣어야 함.
@@ -70,7 +70,7 @@ public class StrMap {
         System.out.println("김준일의 존재 여부 : " + isContain2);
 
         // Map => Set
-        Set<Map.Entry<String, String>> entrySet1 = new HashSet<>();
+        Set<Map.Entry<String, String>> entrySet1 = new HashSet<>(); // 키밸류형태 세트
         Set<Map.Entry<String, String>> entrySet2 = strMap1.entrySet();
         System.out.println(entrySet2.size()); // 키값을 하나의  element / 한 쌍으로 보고있음
         System.out.println(entrySet2);
@@ -82,9 +82,9 @@ public class StrMap {
         // Map은 collection이 아니기때문에 set를 거쳐서 넣는다
         System.out.println(entryList1);
 
-        // Map정렬 -> 사실은 불가능
+        // Map정렬 -> 사실은 불가능 / list 가능 / set 자체로는 불가능
         // Map은 빠른 탐색 및 검색을 위해서 만들어진(설계된) 형태
-        // 정렬은 고려되지 않고 민듦 -> 그래서 순서를 보장하지 않음
+        // 정렬은 고려되지 않고 만듦 -> 그래서 순서를 보장하지 않음
         // 그럼에도 정렬을 하고 싶다면?
         Collections.sort(entryList1, Map.Entry.comparingByValue()); // 값 기준 정렬
         System.out.println("값기준 정렬 : " + entryList1);
@@ -96,6 +96,8 @@ public class StrMap {
         // Key Set 출력
         Set<String> keySet = strMap1.keySet();
         System.out.println(keySet);
+
+
 
     }
 
