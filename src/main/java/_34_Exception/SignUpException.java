@@ -23,10 +23,6 @@ public class SignUpException {
     }
 
 
-
-
-
-
     public static void main(String[] args) {
         String name = "홍길동";
         int age = 15;
@@ -38,8 +34,6 @@ public class SignUpException {
         } finally {
             System.out.println("회원가입 처리 종료");
         }
-
-
 
     }
 }
